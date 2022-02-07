@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Project: File Metadata Microservice</title>
+
+    <!-- main styles -->
+    <link rel="stylesheet" href="./public/style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header>
+        <h1 class="title">API Project: File Metadata Microservice</h1>
+    </header>
+
+    <div class="container">
+        <div class="examples">
+            <h3>Usage:</h3>
+            <p>Please Upload a File ...</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <form action="/api/fileanalyse" method="post" enctype="multipart/form-data">
+            <input type="file" name="upfile" id="file">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="author">
+            <h4>by AmmarDab3an</h4>
+        </div>
+    </div>
+</body>
+</html>
